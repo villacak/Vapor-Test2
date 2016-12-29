@@ -1,5 +1,3 @@
-Vapor-Test2
-
 If you don't have brew and mysql installed please follow the next steps, if you do it's just checkout the project and go to starting.
 
 To install Brew, from this link: http://brew.sh
@@ -17,7 +15,7 @@ Create the database/schema: http://dev.mysql.com/doc/refman/5.7/en/creating-data
 Then update the *\<projectName\>Config/secrets/mysql.json* to match your server, user, password and database name created.
 
 
-#Starting
+##Starting
 From commandline and from within the project directory type, **vapor clean** and then **vapor xcode --mysql**
 
 Accept the open to xCode with y
@@ -32,8 +30,8 @@ Then you can run it from web browser (not post requests) or from a REST client, 
 Those request example are part of the App/main.swift functions comments.
 
 
-# From Vapor
-# Basic Template
+## Vapor
+## Basic Template
 
 A basic vapor template for starting a new Vapor web application. If you're using vapor toolbox, you can use: `vapor new --template=basic`
 
